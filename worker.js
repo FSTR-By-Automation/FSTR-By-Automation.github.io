@@ -231,20 +231,20 @@ let wasm_bindgen;
         // TODO we could test for more things here, like `Set`s and `Map`s.
         return className;
     }
-    function __wbg_adapter_20(arg0, arg1, arg2) {
-        wasm.closure135_externref_shim(arg0, arg1, arg2);
+    function __wbg_adapter_22(arg0, arg1, arg2) {
+        wasm.closure140_externref_shim(arg0, arg1, arg2);
     }
 
-    function __wbg_adapter_23(arg0, arg1) {
+    function __wbg_adapter_25(arg0, arg1) {
         wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__he93b8d2a5572161f(arg0, arg1);
     }
 
-    function __wbg_adapter_26(arg0, arg1, arg2) {
-        wasm.closure278_externref_shim(arg0, arg1, arg2);
+    function __wbg_adapter_28(arg0, arg1, arg2) {
+        wasm.closure283_externref_shim(arg0, arg1, arg2);
     }
 
-    function __wbg_adapter_87(arg0, arg1, arg2, arg3) {
-        wasm.closure296_externref_shim(arg0, arg1, arg2, arg3);
+    function __wbg_adapter_91(arg0, arg1, arg2, arg3) {
+        wasm.closure301_externref_shim(arg0, arg1, arg2, arg3);
     }
 
     const __wbindgen_enum_ReadableStreamType = ["bytes"];
@@ -474,6 +474,9 @@ let wasm_bindgen;
             const ret = arg0.length;
             return ret;
         };
+        imports.wbg.__wbg_log_c222819a41e063d3 = function(arg0) {
+            console.log(arg0);
+        };
         imports.wbg.__wbg_new_23a2665fac83c611 = function(arg0, arg1) {
             try {
                 var state0 = {a: arg0, b: arg1};
@@ -481,7 +484,7 @@ let wasm_bindgen;
                     const a = state0.a;
                     state0.a = 0;
                     try {
-                        return __wbg_adapter_87(a, state0.b, arg0, arg1);
+                        return __wbg_adapter_91(a, state0.b, arg0, arg1);
                     } finally {
                         state0.a = a;
                     }
@@ -595,16 +598,16 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper1186 = function(arg0, arg1, arg2) {
-            const ret = makeClosure(arg0, arg1, 136, __wbg_adapter_20);
+        imports.wbg.__wbindgen_closure_wrapper1193 = function(arg0, arg1, arg2) {
+            const ret = makeClosure(arg0, arg1, 141, __wbg_adapter_22);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper3994 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 196, __wbg_adapter_23);
+        imports.wbg.__wbindgen_closure_wrapper3179 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 167, __wbg_adapter_25);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper5917 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 279, __wbg_adapter_26);
+        imports.wbg.__wbindgen_closure_wrapper5987 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 284, __wbg_adapter_28);
             return ret;
         };
         imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
@@ -634,6 +637,10 @@ let wasm_bindgen;
         };
         imports.wbg.__wbindgen_memory = function() {
             const ret = wasm.memory;
+            return ret;
+        };
+        imports.wbg.__wbindgen_string_new = function(arg0, arg1) {
+            const ret = getStringFromWasm0(arg0, arg1);
             return ret;
         };
         imports.wbg.__wbindgen_throw = function(arg0, arg1) {
