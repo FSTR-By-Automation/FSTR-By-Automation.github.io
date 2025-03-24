@@ -603,7 +603,7 @@ let wasm_bindgen;
             const ret = makeMutClosure(arg0, arg1, 167, __wbg_adapter_23);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper6037 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper6038 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 284, __wbg_adapter_26);
             return ret;
         };
